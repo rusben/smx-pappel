@@ -1,32 +1,58 @@
 h1 {
   color:black;
-  font-family: "Verdana";
-  font-size:61px;
+  font-family: "Arial";
+  font-size:55px;
   background-color:white;
   text-align: center;}
 
-  body {background-color:black;}
+p {text-align: center;
+  font-family:Arial;
+  font-size: 25px;}
+
+h2 {
+  text-align: center;
+  font-size: 55px;
+  text-align: center;}
+
+ i {
+   text-align: center;
+   font-family: Arial;
+   font-size: 25px;
+
+ }
+
+#main-image {
+  text-align: center;
+}
+
+  body {background-color:white;}
+  body {margin:0;}
 
   .topnav {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #333;
   }
 
   .topnav a {
+    font-family:Arial;
     float: left;
-    display: block;
-    color: black;
+    color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 20px;
     text-decoration: none;
-    font-size: 17px;
-    border-bottom: 3px solid transparent;
+    font-size: 13px;
   }
 
   .topnav a:hover {
-    border-bottom: 3px solid red;
+    background-color: #ddd;
+    color: black;
   }
 
   .topnav a.active {
-    border-bottom: 3px solid red;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .topnav-right {
+    float: right;
   }
