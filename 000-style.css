@@ -5,24 +5,41 @@ h1 {
   background-color:white;
   text-align: center;}
 
-p {text-align: center;
+#title-homepod {
+
+  text-align: center;
   font-family:Arial;
   font-size: 25px;}
 
 h2 {
   text-align: center;
-  font-size: 55px;
-  text-align: center;}
+  font-size: 56px;
+  text-align: center;
+  font-family: "Arial";}
 
- i {
-   text-align: center;
+#title-say-hello {
+  text-align: center;
    font-family: Arial;
    font-size: 25px;
-
  }
+
+h3 {
+text-align: center;
+font-size: 40px;
+font-family: "Arial";
+}
+
+#title-watch {
+  text-align: center;
+  font-family: "Arial";
+  font-size: 20px;
+}
+
+
 
 #main-image {
   text-align: center;
+  font-size: 100px;
 }
 
   body {background-color:white;}
