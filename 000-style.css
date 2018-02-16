@@ -135,11 +135,21 @@ height:450px;
     }
 #image-right {
   text-align: right;
-  width: 100px;
+  width: 700px;
   float: right;
-  height: 100px;
-  
-
+  height: 700px;
 }
 
-.container { width: 100%; }
+
+
+.fila img { max-width: 100%;}
+  .img-right { float: right; width: 49%;
+    border-style: solid;
+    border-color: white;
+    border-width: 7px;
+  }
+    .img-left { float: left; width: 49%;
+      border-style: solid;
+      border-color: white;
+      border-width: 8px;
+}
