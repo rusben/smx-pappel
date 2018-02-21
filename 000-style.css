@@ -146,10 +146,19 @@ height:450px;
   .img-right { float: right; width: 49%;
     border-style: solid;
     border-color: white;
-    border-width: 7px;
+    border-width: px;
   }
     .img-left { float: left; width: 49%;
       border-style: solid;
       border-color: white;
       border-width: 8px;
+}
+
+.btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
 }
