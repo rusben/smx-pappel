@@ -74,65 +74,19 @@ body {margin:0;}
     text-align: center;
     padding: 15px 20px;
     text-decoration: none;
-    font-size: 13px;
-  }
+    font-size: 13px;}
 
 .topnav a:hover {
     background-color: #ddd;
-    color: black;
-  }
+    color: black;}
 
 .topnav a.active {
     background-color: #4CAF50;
-    color: white;
-  }
+    color: white;}
 
 .topnav-right {
-    float: right;
-  }
+    float: right;}
 
-.contenedor{
-      position: relative;
-      display: inline-block;
-      text-align: center;
-
-      border-style: solid;
-      border-width: 10px;
-      border-color: white;
-  }
-
-.contenedor img {
-width:750px;
-height:450px;
-}
-
-
-.texto-encima{
-      position: absolute;
-      top: 10px;
-      left: 10px;
-  }
-.centrado{
-    position: absolute;
-    top: 9%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    font-family: arial;
-    font-size: 40px;
-    color: white;
-  }
-
-.centrado2{
-      position: absolute;
-      top: 17%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-
-      font-family: arial;
-      font-size: 20px;
-      color: white;
-    }
 #image-right {
   text-align: right;
   width: 700px;
@@ -140,16 +94,12 @@ height:450px;
   height: 700px;
 }
 
-
-
 .fila img { max-width: 100%;}
-  .img-right { float: right; width: 49.5%;
+.img-right { float: right; width: 49.5%;
     border-style: solid;
-    border-color: white;
-    border-width: px;
-  }
-    .img-left { float: left; width: 49%;
+    border-color: white;}
+
+.img-left { float: left; width: 49%;
       border-style: solid;
       border-color: white;
-      border-width: 8px;
-}
+      border-width: 8px;}
