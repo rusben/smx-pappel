@@ -1,3 +1,7 @@
+* { box-sizing: border-box; }
+
+.clearfix { clear: both;}
+
 h1 {
   color:black;
   font-family: "Arial";
@@ -59,8 +63,8 @@ height: 700;
   border-color: white;
   }
 
-body {background-color:white;}
-body {margin:0;}
+body { background-color:white;
+      margin:0;}
 
 .topnav {
     overflow: hidden;
@@ -94,7 +98,8 @@ body {margin:0;}
   height: 700px;
 }
 
-.fila img { max-width: 100%;}
+.fila { display: block;}
+.fila img { max-width: 100%; }
 .img-right { float: right; width: 49.5%;
     border-style: solid;
     border-color: white;}
@@ -103,3 +108,16 @@ body {margin:0;}
       border-style: solid;
       border-color: white;
       border-width: 8px;}
+
+.b {
+  background-color: silver;
+  border: thin solid gray;
+  font-family: arial;
+}
+
+#columnas{
+  columns: 5;
+   column-gap:30px;
+   column-rule:none;
+   list-style: none;
+}
